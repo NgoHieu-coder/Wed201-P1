@@ -1,0 +1,61 @@
+body {
+    background-color: #f8f5e4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d3d3d3;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
+}
+
+/* nav ul li {
+    display: inline;
+    margin-right: 15px;
+} */
+
+nav a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Georgia", serif;
+    color: darkblue;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: yellow;
+    padding: 5px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+footer {
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 10px;
+}
